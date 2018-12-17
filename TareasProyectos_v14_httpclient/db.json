@@ -1,0 +1,38 @@
+{
+  "tareas": [
+    {
+      "id": 1,
+      "descripcion": "Crear html",
+      "tiempo": 10,
+      "proyecto": 1
+    },
+    {
+      "id": 2,
+      "descripcion": "Crear js",
+      "tiempo": 7,
+      "proyecto": 2
+    },
+    {
+      "id": 3,
+      "descripcion": "Crear TS",
+      "tiempo": 2,
+      "proyecto": 1
+    },
+    {
+      "id": 4,
+      "descripcion": "Llevar a producción",
+      "tiempo": 3,
+      "proyecto": 2
+    }
+  ],
+  "proyectos": [
+    {
+      "pid": 1,
+      "nombre": "Web Cliente a"
+    },
+    {
+      "pid": 2,
+      "nombre": "App Cliente b"
+    }
+  ]
+}

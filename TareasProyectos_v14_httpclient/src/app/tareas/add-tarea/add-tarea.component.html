@@ -1,0 +1,22 @@
+<section>
+  <h2>Nueva tarea</h2>
+  <div class="error">{{serverError}}</div>
+  <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <div>
+      <label for="desc">Descripción:</label>
+      <input type="text" name="desc" id="desc" [(ngModel)]="_nuevaTarea.descripcion" required>
+    </div>
+    <div>
+      <label for="time">Tiempo:</label>
+      <input type="number" name="time" id="time" [(ngModel)]="_nuevaTarea.tiempo" required>
+    </div>
+    <div>
+      <label for="proj">Proyecto</label>
+      <select name="proj" id="proj" [(ngModel)]="_nuevaTarea.proyecto" required>
+        <option *ngFor="let aproj of proyectos" [ngValue]="aproj.pid">{{aproj.nombre}}</option>
+      </select>
+    </div>
+
+    <div><button class="btn" [disabled]="!form.valid">Crear</button></div>
+  </form>
+</section>

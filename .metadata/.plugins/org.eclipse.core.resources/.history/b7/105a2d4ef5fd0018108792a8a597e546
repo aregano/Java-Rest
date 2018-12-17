@@ -1,0 +1,52 @@
+package com.ricardo.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+
+import com.ricardo.models.Customer;
+import com.ricardo.models.Pedido;
+
+@Path("/customer")
+public class CustomerService {
+
+	private static final List<Customer> customer = new ArrayList<Customer>();
+
+	static {
+		customer.add(new Customer(1, "Santi Abascal", "00000001Ñ", "santi@voxespana.es"));
+		customer.add(new Customer(2, "Jose Antonio Ortega Lara", "00000002Ñ", "pepetoni@voxespana.es"));
+		customer.add(new Customer(3, "Rocio Monasterio", "00000003Ñ", "rocimona@voxespana.es"));
+		customer.add(new Customer(4, "Jorge Arturo Cutillas", "00000004Ñ", "cuti@voxespana.es"));
+		customer.add(new Customer(5, "Javier Pérez", "00000005Ñ", "javipe@voxespana.es"));
+	}
+
+	@GET
+	@Produces("application/json")
+	public List<Customer> getCustomers() {
+		return this.customer;
+		
+		@Path("/{pid}")
+		@GET
+		@Produces("application/json")
+		
+		public Customer getCustomer(@PathParam("cid") int cid) {
+			Pedido customerRet = null;
+
+			for (Customer customer : customers) {
+				if (customer.getCid() == cid) {
+					customerRet = customer;
+					break;
+				}
+
+			}
+			return customerRet;
+		}
+
+
+
+
+}

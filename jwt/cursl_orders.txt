@@ -1,0 +1,11 @@
+-- GET
+.\curl.exe http://localhost:8080/RestfulExampleJersey/rest/usuarios
+
+-- POST
+.\curl.exe -X POST -H "Content-Type: application/json" -d '{\"uid\":24,\"name\":\"Joan\",\"surname\":\"Perez\",\"email\":\"j@e.es\"}' http://localhost:8080/RestfulExampleJersey/rest/usuarios
+
+-- PUT
+.\curl.exe -X PUT -H "Content-Type: application/json" -d '{\"uid\":27,\"name\":\"Joan\",\"surname\":\"Perez\",\"email\":\"j@e.es\"}' http://localhost:8080/RestfulExampleJersey/rest/usuarios/27
+
+-- DELETE
+.\curl.exe -X DELETE http://localhost:8080/RestfulExampleJersey/rest/usuarios/27

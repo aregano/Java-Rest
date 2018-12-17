@@ -1,0 +1,6 @@
+#AUTENTICACIÓN 
+curl -H "Content-Type: application/json" -H "username: juan@gmail.com" -H "password: md5_coded" -v -X GET  http://localhost:8080/JWTExample/rest/json/authenticate
+
+#Envio de token para acceder a zona restringida
+curl -H "Content-Type: application/json" -H "token: xxxx" -v http://localhost:8080/JWTExample/rest/json/owndata
+

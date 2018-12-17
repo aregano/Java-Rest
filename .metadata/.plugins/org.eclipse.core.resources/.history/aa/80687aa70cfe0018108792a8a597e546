@@ -1,0 +1,5 @@
+package com.ricardo.models;
+
+public class StatusMessage {
+
+}

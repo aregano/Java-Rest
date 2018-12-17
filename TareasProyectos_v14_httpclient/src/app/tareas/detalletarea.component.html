@@ -1,0 +1,12 @@
+<div>
+	<h1>Detalle de tarea</h1>
+	<ul *ngIf="_tarea!=null">
+		<li><strong>id: </strong>{{_tarea.id}}</li>
+		<li><strong>descripción: </strong>{{_tarea.descripcion}}</li>
+		<li><strong>duración: </strong>{{_tarea.tiempo}}</li>
+		<li><strong>proyecto: </strong>{{_tarea.proyecto}}</li>
+	</ul>
+	
+	<a [routerLink]="['/tareas']">Volver</a>
+
+</div>

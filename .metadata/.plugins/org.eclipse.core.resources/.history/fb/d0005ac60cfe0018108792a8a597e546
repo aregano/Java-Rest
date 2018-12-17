@@ -1,0 +1,23 @@
+package com.ricardo.models;
+
+public class StatusMessage {
+
+		private String texto;
+
+		public StatusMessage() {}
+		
+		public StatusMessage(String texto) {
+			super();
+			this.texto = texto;
+		}
+
+		public String getTexto() {
+			return texto;
+		}
+
+		public void setTexto(String texto) {
+			this.texto = texto;
+		}
+		
+		
+}

@@ -1,0 +1,19 @@
+<section>
+	<h2>Lista de tareas</h2>
+	<input [(ngModel)]="textoafiltrar" placeholder="Filtra por descripción"><br><br>
+
+	<table>
+		<tr><th>id</th><th>Descripción</th><th>tiempo</th><th>Proyecto</th><th></th><th></th></tr>
+		<tr *ngFor="let aTar of tareas| listFilter : textoafiltrar:'descripcion'">
+			<td>{{aTar.id}}</td>
+			<td>{{aTar.descripcion}}</td>
+			<td>{{aTar.tiempo}}</td>
+			<td>{{aTar.proyecto}}</td>
+			<td><a [routerLink]="['/tareas', aTar.id]">ver</a></td>
+			<td><boton-borrar [id]="aTar.id" (borrarClicked)="borrar($event)"></boton-borrar></td>
+		</tr>
+	</table>
+
+	<hr>
+	<a href="#" [routerLink]="['./new']">[+Nueva tarea]</a>
+</section>

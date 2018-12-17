@@ -1,0 +1,8 @@
+package com.ricardo.services;
+
+public class Snippet {
+	public static void main(String[] args) {
+		getUserEmailFromToken
+	}
+}
+

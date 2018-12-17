@@ -1,0 +1,5 @@
+curl -H "username: juan@gmail.com" -H "password: md5_coded" http://192.168.101.183/localhost:8080/PedidosRESTFilters/api/authenticate -v
+
+curl -H "token:" http://192.168.101.183/localhost:8080/PedidosRESTFilters/api/pedidos -v
+
+curl -X DELETE http://192.168.101.183/localhost:8080/PedidosRESTFilters/api/pedidos/2 -v

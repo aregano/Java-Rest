@@ -1,0 +1,25 @@
+package com.ricardo.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.Path;
+
+import com.ricardo.models.Customer;
+
+@Path("/customer")
+public class CustomerService {
+	
+	private static final List<Customer> customer =new ArrayList<Customer>();
+	
+	static {
+		customer.add(new Customer(1, "Santi Abascal", "00000001Ñ","santi@voxespana.es"));
+		customer.add(new Customer(2, "Jose Antonio Ortega Lara", "00000002Ñ","pepetoni@voxespana.es"));
+		customer.add(new Customer(3, "Rocio Monasterio", "00000003Ñ","rocimona@voxespana.es"));
+		customer.add(new Customer(4, "Jorge Arturo Cutillas", "00000004Ñ","cuti@voxespana.es"));
+		customer.add(new Customer(5, "Javier Pérez", "00000005Ñ","javipe@voxespana.es"));
+	}
+
+
+
+}

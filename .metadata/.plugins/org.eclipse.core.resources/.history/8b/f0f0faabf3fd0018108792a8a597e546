@@ -1,0 +1,21 @@
+package com.ricardo.services;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.Path;
+
+import com.ricardo.models.Customer;
+
+@Path("/customer")
+public class CustomerService {
+	
+	private static final List<Customer> customer =new ArrayList<Pedido>();
+	
+	static {
+		customer.add(new Customer(1, "Santi Abascal", "00000001A","santi@vox.es"))
+	}
+
+
+
+}

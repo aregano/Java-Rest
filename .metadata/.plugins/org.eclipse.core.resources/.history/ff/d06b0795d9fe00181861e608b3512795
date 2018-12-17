@@ -1,0 +1,12 @@
+
+
+public class Snippet {
+	public static void main(String[] args) {
+		<dependency>
+			<groupId>org.bitbucket.b_c</groupId>
+			<artifactId>jose4j</artifactId>
+			<version>0.5.0</version>
+		</dependency>
+	}
+}
+

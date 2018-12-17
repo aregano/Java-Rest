@@ -1,0 +1,27 @@
+INDEX VERSION 1.131
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2146072114.index
+\AndresBank_ric\src\main\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3512391715.index
+\spring4-mvc-example-master\src\main\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2843618224.index
+\spring4-mvc-example-master\src\main\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3114950522.index
+\PedidosREST_filtros\src\main\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\580234693.index
+\PedidosRESTFilters\src\main\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\930851407.index
+\EmployeeApp\src\main\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3274481805.index
+\PedidosREST_hibernate\src\main\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4198231416.index
+\PedidosREST_nuevo\src\main\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1595366035.index
+\EmployeeAppRicMany\src\main\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1889310599.index
+\PedidosREST\src\main\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1141077100.index
+\javatunes_mvc\src\test\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1572774727.index
+\javatunes_mvc\src\test\java
+C:\Alvaro\java-rest\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4217461028.index
+\AndresBank_ric\src\main\java
